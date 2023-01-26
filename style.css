@@ -1,0 +1,116 @@
+:root{
+  --red:#DC3545;
+}
+
+/*! -----------------------------NAVBAR---------------------*/
+.navbar{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-link{
+  transition: color 0.7s;
+}
+
+.nav-link:hover{
+  color: var(--red);
+}
+
+/* .nav-link.active{
+  color: purple !important;
+} */
+
+.nav-link.active:hover{
+  color: var(--red);
+}
+
+/*! -----------------------------CAROUSEL---------------------*/
+
+.carousel-item{
+  max-height: calc(100vh - 113px);
+}
+
+.carousel-caption{
+  bottom: 5rem;
+}
+
+.carousel-caption .btn{
+  width: 7rem;
+  margin-bottom: 1rem;
+}
+
+.carousel-caption h5{
+  color: var(--red);
+  font-size: 2.4rem;
+  text-shadow: 3px 3px 3px black;
+}
+
+.carousel-caption p{
+  text-shadow: 3px 3px 3px black;
+  font-weight: 600;
+}
+
+.carousel-indicators{
+  gap: 0.7rem;
+}
+
+.carousel-indicators button{
+  background-color: var(--red)!important;
+  padding: 0.1rem !important;
+  width: 3rem !important;
+}
+
+.carousel-item img{
+  max-height: calc(100vh - 113px)
+}
+
+
+/*! -----------------------------CARD---------------------*/
+
+.card:hover{
+  transform: scale(1.05);
+  transition: transform 1s ease;
+}
+section#races .nav-link.active{
+  background-color: #DC3545;
+}
+
+
+
+/*! -----------------------------CLASSES---------------------*/
+
+section#classes .card-text{
+  overflow: hidden;
+ 
+}
+
+section#classes .card-body{
+  max-height: 230px;
+  overflow: hidden;
+}
+
+section#classes .card-body:hover{
+  overflow:scroll
+  
+}
+/*! -----------------------------CONTACT---------------------*/
+section#contact i {
+  font-size: 2rem;
+  color: #DC3545;
+}
+
+section#contact form button {
+  width:7rem;
+}
+
+/*! -----------------------------FOOTER---------------------*/
+
+footer a{
+  color:white;
+  transition: color 1s;
+  
+}
+footer a:hover{
+  color:#DC3545
+}
