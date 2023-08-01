@@ -1,8 +1,8 @@
-![Project Snapshot](screengif.gif);
+![Project Snapshot](screengif.gif)
 
 [👉 click here to view the page](https://msaiduslu.github.io/Warcraft-Page-Bootstrap/)
 
-# Project : Bootstrap Web Page
+# Project : Carousel Bootstrap Web Page
 
 My goal in this project is to create a web page using bootstrap 5 at a basic level.
 
